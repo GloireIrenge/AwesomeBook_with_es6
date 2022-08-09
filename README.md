@@ -1,56 +1,45 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
-
-> Description the project.
+# Awesome-Books
+This is a web app to add your books in a digital shelf. This app is built with  Javascript. A local storage option is added with this project, so that a user can store data in this is web app.
+![image](https://user-images.githubusercontent.com/37586807/183107427-dee4127c-93b3-426b-90ee-250ff4b9252f.png)
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
+- Javascript, HTML
+- weblint, eslint, hint
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+git clone https://github.com/GloireIrenge/Awesome-Books.git
 
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+The basic requirements for building the executable are:
 
-### Setup
+- A working browser application (Google chrome, Mozilla Fire fox, Microsoft edge ...)
+- VSCode or any other equivalent code editor :atom:
+- Node Package Manager (For running, debuging, or installing dependancies to be used)
 
 ### Install
-
-### Usage
+npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
 
 ### Run tests
-
-### Deployment
-
+- npx eslint.
+- npx webhint .
+- npx stylelint "**/*.{css,scss}"
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Glory Mufungizi**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+:diamond_shape_with_a_dot_inside: GitHub: [@GloireIrenge](https://github.com/GloireIrenge)
+:diamond_shape_with_a_dot_inside: LinkedIn: [Glory Mufungizi](https://www.linkedin.com/in/glory-mufungizi-678940202/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -60,16 +49,17 @@ Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
+Give a ⭐️⭐️⭐️⭐️⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Thank you Mentor for your advices on this project
+- Thanks you Microverse team for you to make it done
+
+
 
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+

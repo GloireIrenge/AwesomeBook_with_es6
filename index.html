@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome-Books</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+        <ul class="topnav">
+                   <li class="right"><a href="index.html">Awesome Books</a></li>
+
+                   <li class="nav-item" id="Mycontact">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item" id="AddBooks">
+                        <a class="nav-link" href="#">Add new</a>
+                    </li>
+                    
+                    <li class="nav-item active" id="Mylist">
+                            <a class="nav-link" href="#">List</a>
+                        </li>
+        </ul>
+        <h5 id="date" class="date">my date</h5>
+    <main>
+        <section id="list">
+                <h2>All Awesome Books</h2>
+                <table>
+                    <tbody id="ctn-book">
+                    </tbody>
+                </table>
+        </section>
+            <section id="form">
+            <h2>Add a new book</h2>
+            <form>
+                <div class="row">
+                    <div class="col">
+                        <input type="text"  placeholder="Title" name="title" id="title" required>
+                    </div>
+                    <div class="col">
+                        <input type="text" placeholder="Author" name="Author" id="author" required>
+                    </div>
+                    <button id="submit" type="button">Add</button>
+                </div>
+            </form>  
+            </section> 
+
+
+
+
+            <section class="contact" id="contact">
+                    <h1>Contact info</h1>
+                    <p>Do any have question or just want to say "Hello"? you can reach out to us</p>
+                    <ul>
+                        <li>Our e-mail: micronault@gmail.com</li>
+                        <li>Our phone number: +243990907628</li>
+                        <li>Our Adress: Street 34 Karisimbi  Coma Goma </li>
+                    </ul>
+                </section>
+    </main>
+
+    <footer class="container-fluid bg-light p-3">
+            <h5>Copyright <span class="text-primary">Glory Mufungizi</span></h5>
+    </footer>
+
+    <script type="module" src="./index.js"></script>
+</body>
+
+</html>
